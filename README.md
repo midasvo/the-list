@@ -55,16 +55,25 @@ Run the command below to create a new markdown file in 'the-list/content/items/'
 
 The initial contents of the file will be something like
 
->---
->title: "It Was the Saddest Backflip"
->date: 2020-11-24T19:17:30+01:00
->itemurl: ""
->itemurl_archive: ""
->itemurl_soccer: ""
-itemurl_saddestbackflip: ""
->tags: []
->draft: false
->---
+> ---
+
+> title: "It Was the Saddest Backflip"
+
+> date: 2020-11-24T19:17:30+01:00
+
+> itemurl: ""
+
+> itemurl_archive: ""
+
+> itemurl_soccer: ""
+
+> itemurl_saddestbackflip: ""
+
+> tags: []
+
+> draft: false
+
+> ---
 
 For older additions you will need to change the date
 
