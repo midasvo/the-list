@@ -1,0 +1,4 @@
+baseURL = "https://list.futbol"
+languageCode = "en-us"
+title = "The List by /r/soccer"
+theme = "hugonews"
