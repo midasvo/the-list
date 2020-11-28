@@ -1,0 +1,9 @@
+{
+    "title": "{{ .Title }}",
+    "date" : "{{ .Date }}",
+    "itemurl" : "{{ .Params.itemurl }}",
+    "itemurl_archive" : "{{ .Params.itemurl_archive }}",
+    "itemurl_soccer" : "{{ .Params.itemurl_soccer }}",
+    "itemurl_saddestbackflip" : "{{ .Params.itemurl_saddestbackflip }}",
+    "permalink" : "{{ .Permalink }}"
+}

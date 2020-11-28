@@ -16,7 +16,7 @@ body {
     margin-bottom: 0.6rem;
 }
 
-p { 
+p {
     margin: 0;
 }
 
@@ -128,10 +128,22 @@ ul.pagination li.active a {
     padding: 0 0.5rem;
 }
 
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.flex-content > h3 {
+  padding-right: 3em;
+}
+
 @media (max-width: 960px) {
     #header,
     #main,
     #footer {
         width: 100%;
     }
+
+
 }

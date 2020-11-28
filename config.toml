@@ -1,4 +1,8 @@
-baseURL = "https://list.futbol"
+abaseURL = "https://list.futbol"
 languageCode = "en-us"
 title = "The List by /r/soccer "
 theme = "hugonews-custom"
+[outputs]
+    page = ["html", "json"]
+    section = ["html", "json"]
+    home = ["html", "json"]

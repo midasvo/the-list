@@ -1,9 +1,13 @@
 {{ partial "header.html" . }}
-    <article class="single">
-        {{ if ne (trim .Content " ") "" }}
-        {{ .Content }}
-        {{ else }}
-        <p>You have not written any notes for this article.</p>
-        {{ end }}
-    </article>
+<div class="flex-content">
+  <h3>{{ .Title }}</h3>
+      <article class="single">
+          {{ if ne (trim .Content " ") "" }}
+          {{ .Content }}
+          {{ else }}
+          <p>You have not written any notes for this article.</p>
+          {{ end }}
+      </article>
+</div>
+
 {{ partial "footer.html" . }}
