@@ -1,13 +1,16 @@
 # the-list
 Inspired by a comment on /r/soccer, which inspired a subreddit called /r/SaddestBackflip now turns into a website since people keep having to find different versions of the list
 
-Probably easiest to create a static site based on Hugo, this theme seems to fit well: https://github.com/spaghettiwews/hugonews minimalistic HN-type of theme
+## Features
 
-People should be able to create a pull request for additions to the list, or create an issue so someone else can do it
-
-Will probably add some maintainers since I don't want to be the arbiter of what constitutes a worthy addition
+- Pagination
+  - Main page has a pagination widget so not all posts are shown at once
+- JSON API
+  - Ability to easily retrieve content using GET requests (e.g. by appending '[/index.json](https://list.futbol/items/index.json)' to the url.)
 
 # Contributing
+
+How to start contributing by developing the website, external apps, creating posts, and pitching ideas.
 
 ## Add it to the list!
 
@@ -75,7 +78,7 @@ The initial contents of the file will be something like
 
 > ---
 
-For older additions you will need to change the date
+Change the title, date, and add any itemurls available. 
 
 Add the itemurl's you know
 
