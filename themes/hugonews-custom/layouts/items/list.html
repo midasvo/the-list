@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ $start := add (sub (mul .Paginator.PageSize .Paginator.PageNumber) .Paginator.PageSize) 1 }}
-<ol start={{ $start }}>
+<ul start={{ $start }}>
 {{ range .Paginator.Pages }}
 {{ $site := urls.Parse .Params.ItemUrl }}
 <li class="item">
@@ -14,7 +14,7 @@
     </p>
 </li>
 {{ end }}
-</ol>
+</ul>
 
 {{ template "_internal/pagination.html" . }}
 
